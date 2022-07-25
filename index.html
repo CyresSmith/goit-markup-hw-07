@@ -87,37 +87,33 @@
 
                     <form class="call-back-form">
                         <b class="call-back-form-header">Оставьте свои данные, мы вам перезвоним</b>
-                        <div class="call-back-form-fieldset">
-                            <div class="call-back-form-field">
-                                <input class="call-back-form-input" type="text" name="name" id="name" placeholder=" " autofocus>
-                                <svg class="call-back-form-label-icon" width="18" height="18">
-                                    <use href="./img/svg/icons.svg#person">
-                                    </use>
-                                </svg>
-                                <label class="call-back-form-label" for="name">Имя</label>
-                            </div>
-                            <div class="call-back-form-field">
-                                <input class="call-back-form-input" type="tel" name="phone" id="phone" placeholder=" ">
-                                <svg class="call-back-form-label-icon" width="18" height="18">
-                                    <use href="./img/svg/icons.svg#phone">
-                                    </use>
-                                </svg>
-                                <label class="call-back-form-label" for="phone">Телефон</label>
-                            </div>
-                            <div class="call-back-form-field">
-                                <input class="call-back-form-input" type="email" name="email" id="email" placeholder=" ">
-                                <svg class="call-back-form-label-icon" width="18" height="18">
-                                    <use href="./img/svg/icons.svg#email">
-                                    </use>
-                                </svg>
-                                <label class="call-back-form-label" for="email">Почта</label>
-                            </div>
-                            <div class="call-back-form-field comment">
-                                <textarea class="call-back-form-input comment" name="comment" id="comment" rows="8"
-                                    placeholder="Введите текст"></textarea>
-                                <label class="call-back-form-label" for="comment">Комментарий</label>
-                            </div>
-                        </div> 
+                        <label class="call-back-form-label" for="name">Имя</label>
+                        <div class="call-back-form-field">
+                            <input class="call-back-form-input" type="text" name="name" id="name" placeholder=" " autofocus>
+                            <svg class="call-back-form-label-icon" width="18" height="18">
+                                <use href="./img/svg/icons.svg#person">
+                                </use>
+                            </svg>
+                        </div>
+                        <label class="call-back-form-label" for="phone">Телефон</label>
+                        <div class="call-back-form-field">
+                            <input class="call-back-form-input" type="tel" name="phone" id="phone" placeholder=" ">
+                            <svg class="call-back-form-label-icon" width="18" height="18">
+                                <use href="./img/svg/icons.svg#phone">
+                                </use>
+                            </svg>
+                        </div>
+                        <label class="call-back-form-label" for="email">Почта</label>
+                        <div class="call-back-form-field">
+                            <input class="call-back-form-input" type="email" name="email" id="email" placeholder=" ">
+                            <svg class="call-back-form-label-icon" width="18" height="18">
+                                <use href="./img/svg/icons.svg#email">
+                                </use>
+                            </svg>
+                        </div>
+                        <label class="call-back-form-label" for="comment">Комментарий</label>
+                        <textarea class="call-back-form-input comment" name="comment" id="comment" rows="8" placeholder="Введите текст">
+                        </textarea>                                                    
                         <label class="checkbox" for="agree">
                             <input class="checkbox-input-hidden visually-hidden" type="checkbox" name="agree" id="agree" value="agree">
                             <span class="checkbox-input">
@@ -126,11 +122,11 @@
                                 </svg>
                             </span>
                             <span>Соглашаюсь с рассылкой и принимаю <a class="checkbox-link" href="">Условия договора</a> </span>
-                        </label>                       
-                    </form>
-                    <button class="button hero" type="submit">
-                        Отправить
-                    </button>
+                        </label>
+                        <button class="button hero" type="submit">
+                            Отправить
+                        </button>
+                    </form>                    
                 </div>
             </div>
         </section>      
@@ -422,78 +418,80 @@
         <!--Подвал-->
 
     <footer class="footer">
-        <div class="container">
-            <ul class="footer-contacts-list">
-                <li>
-                    <!--Лого-->
-                    
-                    <a class="logo footer clean-link" href="index.html"><span class="logo-accent">Web</span>Studio</a>
-                    
-                    <!--Контакты-->
-                    
-                    <address>
-                        <ul id="contacts" class="footer-adress-list">
-                            <li class="footer-adress-item"><a class="footer-adress-item-text" href="https://goo.gl/maps/bL18XimWbJK8uWrq5"  rel="noopener noreferrer nofollow"
-                                    target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
-                            <li class="footer-adress-item"><a class="footer-adress-item-text"
-                                    href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                            <li class="footer-adress-item"><a class="footer-adress-item-text" href="tel:+380961111111">+38 096 111 11 11</a>
-                            </li>
-                        </ul>
-                    </address>
-                </li>
-                <li class="join">
-                    <h3 class="join-title">присоединяйтесь</h3>
-                    <ul class="social-links-list in-footer">
-                        <li class="social-link-item in-footer">
-                            <a class="social-link in-footer" href="https://www.instagram.com/" rel="noopener noreferrer nofollow" target="_blank">
-                                <svg class="social-link-icon in-footer" width="20" height="20">
-                                    <use href="./img/svg/icons.svg#instagram"></use>
-                                </svg>
-                            </a>
+        <div class="container footer-contacts-list">
+            <div class="footer-contacts">
+                <!--Лого-->
+                
+                <a class="logo footer clean-link" href="index.html"><span class="logo-accent">Web</span>Studio</a>
+                
+                <!--Контакты-->
+                
+                <address>
+                    <ul id="contacts" class="footer-adress-list">
+                        <li class="footer-adress-item"><a class="footer-adress-item-text" href="https://goo.gl/maps/bL18XimWbJK8uWrq5"
+                                rel="noopener noreferrer nofollow" target="_blank">г. Киев, пр-т Леси Украинки, 26</a></li>
+                        <li class="footer-adress-item"><a class="footer-adress-item-text"
+                                href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="footer-adress-item"><a class="footer-adress-item-text" href="tel:+380961111111">+38 096 111 11 11</a>
                         </li>
-                        <li class="social-link-item in-footer">
-                            <a class="social-link in-footer" href="https://www.twitter.com/" rel="noopener noreferrer nofollow" target="_blank">
-                                <svg class="social-link-icon in-footer" width="20" height="20">
-                                    <use href="./img/svg/icons.svg#twitter"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social-link-item in-footer">
-                            <a class="social-link in-footer" href="https://www.facebook.com/" rel="noopener noreferrer nofollow" target="_blank">
-                                <svg class="social-link-icon in-footer" width="20" height="20">
-                                    <use href="./img/svg/icons.svg#facebook"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social-link-item in-footer">
-                            <a class="social-link in-footer" href="https://www.linkedin.com/" rel="noopener noreferrer nofollow" target="_blank">
-                                <svg class="social-link-icon in-footer" width="20" height="20">
-                                    <use href="./img/svg/icons.svg#linkedin"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>                
-                </li>
-
-                <li class="footer-subscription">
+                    </ul>
+                </address>
+            </div>
+            <div class="join">
+                <h3 class="join-title">присоединяйтесь</h3>
+                <ul class="social-links-list in-footer">
+                    <li class="social-link-item in-footer">
+                        <a class="social-link in-footer" href="https://www.instagram.com/" rel="noopener noreferrer nofollow"
+                            target="_blank">
+                            <svg class="social-link-icon in-footer" width="20" height="20">
+                                <use href="./img/svg/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-link-item in-footer">
+                        <a class="social-link in-footer" href="https://www.twitter.com/" rel="noopener noreferrer nofollow"
+                            target="_blank">
+                            <svg class="social-link-icon in-footer" width="20" height="20">
+                                <use href="./img/svg/icons.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-link-item in-footer">
+                        <a class="social-link in-footer" href="https://www.facebook.com/" rel="noopener noreferrer nofollow"
+                            target="_blank">
+                            <svg class="social-link-icon in-footer" width="20" height="20">
+                                <use href="./img/svg/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-link-item in-footer">
+                        <a class="social-link in-footer" href="https://www.linkedin.com/" rel="noopener noreferrer nofollow"
+                            target="_blank">
+                            <svg class="social-link-icon in-footer" width="20" height="20">
+                                <use href="./img/svg/icons.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-subscription">
+                <form class="subscription-form">
                     <label class="subscription-form-label" for="subscription-email">
                         <h3 class="join-title subscription">Подпишитесь на рассылку</h3>
                     </label>
-                    <form class="subscription-form">
-                        <input class="subscription-form-input" type="email" name="subscription-email" id="subscription-email" placeholder="E-mail">
-                        <button class="button subscription" type="submit">
-                            Подписаться
-                            <svg class="subscription-button-icon" width="24" height="24">
-                                <use href="./img/svg/icons.svg#send"></use>
-                            </svg>
-                            <svg class="subscription-button-icon second" width="24" height="24">
-                                <use href="./img/svg/icons.svg#send"></use>
-                            </svg>
-                        </button>
-                    </form>                
-                </li>
-            </ul>
+                    <input class="subscription-form-input" type="email" name="subscription-email" id="subscription-email"
+                        placeholder="E-mail">
+                    <button class="button subscription" type="submit">
+                        Подписаться
+                        <svg class="subscription-button-icon" width="24" height="24">
+                            <use href="./img/svg/icons.svg#send"></use>
+                        </svg>
+                        <svg class="subscription-button-icon second" width="24" height="24">
+                            <use href="./img/svg/icons.svg#send"></use>
+                        </svg>
+                    </button>
+                </form>                
+            </div>
         </div>              
     </footer>
     <script src="./js/modal.js"></script>
