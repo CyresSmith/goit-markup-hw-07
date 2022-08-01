@@ -47,11 +47,13 @@
         color: $accent-color;
     }
 
-    &__text:hover &__icon {
+    &__text:hover &__icon,
+    &__text:focus &__icon {
         transform: translateY(-30px);
     }
 
-    &__text:hover &__icon--hidden {
+    &__text:hover &__icon--hidden,
+    &__text:focus &__icon--hidden {
         transform: translateY(0);
     }
 }
