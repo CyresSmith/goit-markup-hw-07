@@ -1,4 +1,4 @@
-.close__button {
+.modal-close-button {
     @extend %button;
     @include centered-flex();
     position: absolute;

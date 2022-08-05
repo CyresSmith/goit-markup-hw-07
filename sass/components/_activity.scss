@@ -1,10 +1,7 @@
 .activity {
-    
-    &__list {
-        display: flex;
-        margin-top: calc(-1 * $card-set-gap);
-        margin-left: calc(-1 * $card-set-gap);
-    }
+    display: flex;
+    margin-top: calc(-1 * $card-set-gap);
+    margin-left: calc(-1 * $card-set-gap);
 
     &__item {
         position: relative;

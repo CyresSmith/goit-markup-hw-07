@@ -18,7 +18,7 @@
     <!--Шапка-->
 
     <header class="header">
-        <div class="container container--for-header">
+        <div class="container container__header">
             <nav>
                 <!--Лого-->
 
@@ -28,10 +28,10 @@
 
                 <ul class="site-nav">
                     <li class="site-nav__item">                        
-                        <a class="site-nav__text site-nav__text--current" href="index.html">Студія</a>                    
+                        <a class="site-nav__link site-nav__link--current" href="index.html">Студія</a>                    
                     </li>
-                    <li class="site-nav__item"><a class="site-nav__text" href="./portfolio.html">Портфоліо</a></li>
-                    <li class="site-nav__item"><a class="site-nav__text" href="#contacts">Контакти</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="site-nav__item"><a class="site-nav__link" href="#contacts">Контакти</a></li>
                 </ul>
             </nav>
 
@@ -39,7 +39,7 @@
 
             <ul class="contact-nav">
                 <li class="contact-nav__item">                    
-                    <a class="contact-nav__text" href="mailto:info@devstudio.com" lang="en">
+                    <a class="contact-nav__link" href="mailto:info@devstudio.com" lang="en">
                         <svg class="contact-nav__icon" width="16" height="12">
                             <use href="./img/svg/icons.svg#envelope"></use>
                         </svg>
@@ -50,7 +50,7 @@
                     </a>
                 </li>
                 <li class="contact-nav__item">                    
-                    <a class="contact-nav__text" href="tel:+380961111111">
+                    <a class="contact-nav__link" href="tel:+380961111111">
                         <svg class="contact-nav__icon" width="10" height="16">
                             <use href="./img/svg/icons.svg#smartphone"></use>
                         </svg>
@@ -69,14 +69,14 @@
 
         <!--Герой-->
 
-        <section class="section section--for-hero">
+        <section class="section hero">
             <div class="container">
                 <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
                 <button class="button hero__button" type="button" data-modal-open>Замовити послугу</button>
             </div>
             <div class="backdrop backdrop--hidden" data-modal>
                 <div class="modal">
-                    <button class="button close__button" type="button" width="11" height="11" data-modal-close>
+                    <button class="button modal-close-button" type="button" width="11" height="11" data-modal-close>
                         <svg  height="11">
                             <use href="./img/svg/icons.svg#close"></use>
                         </svg>
@@ -133,8 +133,8 @@
         
         <section class="section">
             <div class="container">
-                <h2 class="differences visually-hidden">Особливості</h2>
-                <ul class="differences__list clean-list">                    
+                <h2 class="visually-hidden">Особливості</h2>
+                <ul class="differences">                    
                     <li class="differences__item">
                         <div class="differences__icon-box">
                             <svg class="differences__icon" width="70" height="70">
@@ -177,10 +177,10 @@
 
             <!--Чем занимаемся-->
 
-        <section class="section section--for-activity-section">
+        <section class="section section--no-padding-top">
             <div class="container">
                 <h2 class="section__title">Чим ми займаємося</h2>
-                <ul class="activity__list clean-list">
+                <ul class="activity">
                     <li class="activity__item">
                         <div class="activity__thumb">
                             <h3 class="activity__text">Десктопні додатки</h3>
@@ -205,11 +205,10 @@
 
         <!--Наша команда--> 
 
-        <section class="section section--for-team-section">
+        <section class="section section--main-bg-color">
             <div class="container">
                 <h2 class="section__title">Наша команда</h2>
-                <div class="team">
-                    <ul class="team__list clean-list">
+                <ul class="team">
                         <li class="team__card">
                             <img src="./img/product_designer.jpg"
                                 alt="Молодой, улыбающийся парень в темнокрасной рубашке с бородой и в очках">
@@ -379,8 +378,7 @@
                                     </ul>
                             </div>
                         </li>
-                    </ul>
-                </div>                
+                    </ul>                               
             </div>            
         </section>
     </main>
@@ -390,8 +388,7 @@
     <section class="section">
         <div class="container">
             <h2 class="section__title">Постійні клієнти</h2>
-            <div class="customers">
-                <ul class="customers__list">
+            <ul class="customers">
                     <li class="customers__item">
                         <a class="customers__link" href="https://www.google.com" rel="noopener noreferrer nofollow" target="_blank">
                             <svg class="customers__logo">
@@ -434,15 +431,14 @@
                             </svg>
                         </a>
                     </li>
-                </ul>
-            </div>            
+                </ul>            
         </div>
     </section>
 
         <!--Подвал-->
 
     <footer class="footer">
-        <div class="container container--for-footer">
+        <div class="container container__footer">
             <div class="footer__contacts">
                 <!--Лого-->
     

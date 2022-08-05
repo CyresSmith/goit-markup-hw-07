@@ -5,12 +5,12 @@
     padding-right: 15px;
     width: 1200px;
 
-    &--for-header {
+    &__header {
         display: flex;
         align-items: center;
     }
 
-    &--for-footer {
+    &__footer {
         display: flex;
         align-items: baseline;
     }

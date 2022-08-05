@@ -1,14 +1,11 @@
 .team {
-
-    &__list {
-        display: flex;
-        margin-top: calc(-1 * $card-set-gap);
-        margin-left: calc(-1 * $card-set-gap);
-        font-size: 16px;
-        line-height: 1.18;
-        letter-spacing: 0.03em;        
-        text-align: center;
-    }
+    display: flex;
+    margin-top: calc(-1 * $card-set-gap);
+    margin-left: calc(-1 * $card-set-gap);
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-align: center;
 
     &__card {
         flex-basis: calc(100% / 4 - $card-set-gap);        
